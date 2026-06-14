@@ -7,9 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import pages.LoginPage;
-
 import java.util.HashMap;
-
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
 public class BaseTest {
