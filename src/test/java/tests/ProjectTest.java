@@ -7,7 +7,7 @@ public class ProjectTest extends BaseTest {
     @Test
     public void checkCreateProject() {
         loginPage.openPage()
-                .login("test@gmail.com", "r@a6sGZ7@vsn3wh")
+                .login(user, password)
                 .isPageOpened()
                 .createProject("TMS02", "TMS02")
                 .openPage("TMS02")
